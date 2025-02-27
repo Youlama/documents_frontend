@@ -1,22 +1,15 @@
-export type T_Document = {
-    id: number;
-    name: string;
-    description: string;
-    prod_period: number;
-    replace_period?: number;
-    number_length: number;
-    image: string;
-    status: number;
-    comment?: number;
-    new_document_number?: string;
-};
-
-export type T_DocumentAtt = {
-    id: number;
-    name: string;
-    type: string;
-    value: string;
-};
+export type T_Document =  {
+    id: number,
+    name: string,
+    description: string,
+    prod_period: number,
+    replace_period?: number,
+    number_length: number,
+    image: string,
+    status: number,
+    comment?: number
+    new_document_number?: string
+}
 
 export type T_Request = {
     id: string | null
